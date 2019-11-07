@@ -19,8 +19,8 @@ class Artist
     song.artist = self
   end
   
-  def self.find_or_create_by_name(file)
-    song = Song.new(file)
+  def self.find_or_create_by_name(name)
+    song = Song.new(name)
     song.artist = self
   end
 
