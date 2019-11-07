@@ -20,8 +20,7 @@ class Artist
   end
   
   def self.find_or_create_by_name(name)
-    song = Song.new(name)
-    song.artist = self
+    self.name(name) ?
   end
 
   def self.print_songs
