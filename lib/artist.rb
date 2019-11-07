@@ -25,6 +25,6 @@ class Artist
   end
 
   def self.print_songs
-    Artist.all.count
+    Song.all.count
   end
 end
